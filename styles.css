@@ -1,2 +1,35 @@
+/* Main Table Style */
+.main-table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
 
-/* Your CSS Code here. */
+/* Nested Tables Style */
+.nested-table {
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.nested-table th, .nested-table td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+/* Black background with white text for HTML cell */
+.black-bg-white-text {
+    background-color: black;
+    color: white;
+}
+
+/* List Style */
+.nested-table ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nested-table ul li {
+    padding: 5px;
+}
